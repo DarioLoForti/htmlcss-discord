@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
     background-color: #3161E0;
@@ -21,6 +22,9 @@ header{
 
 .contain{
     padding: 20px;
+}
+.immagine > img{
+    width: 100%;
 }
 
 .col-25{
@@ -42,10 +46,9 @@ ul{
 
 li{
     justify-content: center;
-    align-items: center;
     color: white;
     font-size: 15px;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 button{
@@ -64,6 +67,16 @@ button{
 .t-end{
    text-align: end;
 }
+h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+p{
+    font-size: 18px;
+    margin: 20px;
+}
+
 
 .bg-img-main{
     background-image: url(../img/jumbo.png);
@@ -93,21 +106,18 @@ button{
 }
 
 .col-60{
-    background-color: #1E90FF;
-    width: calc(60%);
-    height: 400px;
+    width:60%;
+    
 }
 
 .col-40{
-    background-color: #FFC0CB;
-    width:calc(40%);
-    height: 400px;
+    width:40%;
+    text-align: center;
+    
 }
 
 .col-100{
-    background-color: #228B22;
     width: 100%;
-    height: 700px;
 }
 
 footer{
@@ -115,16 +125,17 @@ footer{
 }
 
 .col-28{
-    background-color:#F08080 ;
     height: 500px;
     width: calc(28%);
+    flex-direction: column;
 }
 
 .col-18{
     background-color: #20B2AA;
     height: 500px;
     width: calc(72% / 4);
-    border: 2px dashed white;
+    flex-direction: column;
+    
 }
 
 .col-f-100{
@@ -152,4 +163,26 @@ footer{
     background-color:#FFB6C1 ; 
     width: 60px;
     text-align: center; 
+}
+.sub-title{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.sub-button{
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;;
+}
+.b-buttom{
+    background-color: #7c93d3;
+    color: white;
+}
+span > img{
+    width: 25px;
+    
 }
