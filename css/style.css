@@ -10,7 +10,7 @@ header{
 }
 
 .container{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -87,6 +87,7 @@ p{
 
 .bg-gray{
     background-color:#D3D3D3 ;
+    
 }
 
 .margin{
@@ -147,9 +148,10 @@ footer{
 }
 
 .sub-container{
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px 0;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   
 }
 
 .sub{
