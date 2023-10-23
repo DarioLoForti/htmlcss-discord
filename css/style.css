@@ -125,21 +125,18 @@ footer{
 }
 
 .col-28{
-    height: 500px;
     width: calc(28%);
     flex-direction: column;
 }
 
 .col-18{
-    background-color: #20B2AA;
-    height: 500px;
+    color: white;
     width: calc(72% / 4);
-    flex-direction: column;
     
 }
 
 .col-f-100{
-    background-color:#7FFFD4 ;
+
     width: 100%;
     height: 40px;
     justify-content: space-between;
@@ -160,7 +157,6 @@ footer{
 }
 
 .col-b{
-    background-color:#FFB6C1 ; 
     width: 60px;
     text-align: center; 
 }
@@ -183,6 +179,22 @@ footer{
     color: white;
 }
 span > img{
-    width: 25px;
-    
+    width: 45px;
+    padding-left: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.padding{
+    padding: 40px 0;
+}
+span{
+    color: white;
+}
+.color{
+    color: #7c93d3;
+    font-size: bold
+}
+.contain> img{
+    padding: 15px 0px 0px 30px;
+
 }
